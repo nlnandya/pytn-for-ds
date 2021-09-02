@@ -1,3 +1,5 @@
-import sesi_3.mymod as module
+import numpy as np
 
-print()
+arr = np.array([2,4,3])
+
+print(arr)
