@@ -17,7 +17,7 @@ def multiply(*args):
     return res
 
 def devide(*args):
-    [res, *sisa] = []
+    [res, *sisa] = args
     for arg in sisa:
         res = res / arg
     return res
